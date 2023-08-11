@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website</title>
+    {% load static %}
+    <link rel = "stylesheet" href = "{% static 'home.css' %}"> 
+<!-- <link rel="stylesheet" href="static/style.css"> -->
+</head>
+<body>   
+
+    <div>
+        <div>
+        <nav class="row1">            
+            <ul class="left-side">            
+                <li><a class="" href="#">Home</a></li>
+                <li><a class="" href="http://127.0.0.1:8000/about/">About Us</a></li>
+                <li><a class="" href="http://127.0.0.1:8000/courses/">Courses</a></li>
+                <li><a class="" href="#">Elements</a></li>
+                <li><a class="" href="#">News</a></li>
+                <li><a class="" href="http://127.0.0.1:8000/contact/">Contact</a></li>                  
+            </ul>
+            <ul class="right-side">
+                <li><a  href="http://127.0.0.1:8000/login/">Login</a></li>
+                <li><a  href="http://127.0.0.1:8000/signup/">Signup</a></li>         
+            </ul>            
+        </nav>           
+        </div>        
+        
+        <div class="row2">
+           <p><h1>Get your <mark class="mark">Education</mark> today</h1></p>
+        </div>
+
+        <div class="row3">
+           <button class="on1"><h4>Online Courses</h4><p><h6>VIEW MORE</h6></p></button>
+           <button class="on2"><h4>Our Library</h4><p><h6>VIEW MORE</h6></p></button>
+           <button class="on3"><h4>Our Teachers</h4><p><h6>VIEW MORE</h6></p></button>
+        </div>
+    </div>   
+   
+</body>
+</html>
