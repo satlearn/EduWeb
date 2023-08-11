@@ -1,0 +1,83 @@
+body{
+    background-image:url('comclass.jpg');height:100%;
+    width:100%;background-repeat:no-repeat;background-attachment:fixed;background-size:cover;
+}
+
+
+.row1{
+    background-color: #000000;height:55px;width:100%;
+
+}
+.row2{
+    text-align: center;padding-top: 120px;
+    height:300px;width:100%;font-size: 20px;
+}
+.row3{
+    height:120px;width:100%;
+    text-align: center;padding-top: 130px;
+}
+.row3 button{
+    padding-left: 20px;background-color: #000000;color:#ffffff;
+    text-align: center; 
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    font-size: 18px;
+    padding: 5px 5px;
+}
+.row3 h4{
+    padding-right: 4px;
+}
+.mark{
+    background-color: #2a1ed8;
+}
+ /* is a universal selector */
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+   /*top\bottom margin is 0,left\right margin is auto(automatically set by browser) */
+body{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.row1{
+    background-color:#000000;
+    color: #ffffff;
+    border: 1px solid #333333;
+    /* border-radius:curved corner */
+    border-radius: 25px;
+    margin-top: 10px;
+    /* hidden:rest of the content will be invisible */
+    overflow: hidden;
+    /* apply flex to get right and left navigations in a row */
+    display: flex;
+    /* push both the blocks to the edges using justify-content */
+    justify-content: space-between;
+}
+/*  remove the bullets */
+.right-side, .left-side{
+    list-style-type: none;
+}
+/* change li display property from block to inline block */
+.right-side li, .left-side li{
+    display: inline-block;
+}
+/* style the anchor elements */
+.right-side li a, .left-side li a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 14px 18px;
+    font-weight: bold;
+}
+
+.right-side li a:hover, .left-side li a:hover{
+    background-color: #ffffff;color:#000000;
+} 
+
